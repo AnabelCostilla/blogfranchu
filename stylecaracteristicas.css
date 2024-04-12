@@ -1,0 +1,48 @@
+/* Estilos para el carrusel */
+.carruselbody{
+    background-color: rgb(255, 71, 187);
+}
+.carousel-item img {
+    width: 60%;
+    height: 410px;
+    margin: auto;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente para el texto */
+    padding: 10px;
+    color: #fff; /* Color del texto */
+    width: 60%;
+    height: 150px;
+    margin-left:5%;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  
+  .carousel-caption p {
+    font-size: 15px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .carousel-item img {
+      width: 70%;
+      height: 210px;
+      margin-top: 40%;
+      
+    }
+
+    .carousel-caption {
+      width: 70%;
+      height: 250px;
+      margin-left:1%;
+      margin-bottom:-25%;
+      margin-top: 20%;
+      font-size: 20px;
+    }
+
+
+
+  }
+  

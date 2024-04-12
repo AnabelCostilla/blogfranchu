@@ -1,0 +1,207 @@
+.huella{
+    --main-bg-color:#eb1093; ;
+    background-color: var(--main-bg-color);
+}
+    .bg-dark .text-white{
+        --main-bg-color: eb1;
+        --bs-blue: #fd0dcd;
+        text-align: center;
+    }
+    .text-center{
+        color:rgb(250, 23, 216);
+        --bs-blue: #0c1017;
+    }
+.display-4{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.franchezca{
+  color: #eb1093;
+}
+
+/*img perfil*/ 
+.img-fluid{ 
+height: auto;
+float:right;
+width: 60%;
+}
+/*container Bienvenida*/
+.container_xl {
+    background-color: hsla(324, 11%, 36%, 0.649);
+    padding:20px;
+    margin-top:10px;
+    margin-left:5%;
+    margin-right:5%;
+    border: 4px solid rgb(211, 45, 134);
+  }
+.text {           /*titúlo: bienvenidos a este blog*/
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(247, 7, 171);
+    background-color: #333;
+    text-transform: uppercase;
+  }
+.display-7 { /*texto del conteiner bienvenida de bolg*/
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 1.7;
+    color: rgb(255, 246, 246);
+  }
+
+/*container historia de franchezca*/
+.lead{ /* titúlo historia de franchezca*/
+width: 100%;
+height: 30px;
+color:#ff00f7;
+background-color: #333;
+  }
+  .h3 { /* titúlo historia de franchezca*/
+  
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  p { /*texto historia de franchezca*/
+    font-size:15px;
+    line-height: 1.6;
+    color: rgb(6, 28, 31);
+    font-family: cursive;
+  }
+  /*franchesca el regalo inesperado*/
+  body {
+color:#ff00b3;
+background-color: #333;
+  }
+  .container .mt-5{
+    max-width: 700px;
+  }
+  .img-fluid  {
+    border: 5px solid #e70969;
+    margin: 10%;
+  }
+  .h3caja {
+    color:#ff00b3;
+background-color: #333;
+    font-style: italic;
+    font-size:40px;
+  }
+  .pcaja {
+    font-size: 16px;
+    line-height: 1.6;
+    color:#eae0e7;
+background-color: rgb(91, 85, 85);
+  }
+  /*texto tres columnas de la reina de casa,de los inviernos,la cazadora*/
+  .trescolumnas{
+    font-size: 16px;
+    color:#f3e6ef;
+background-color: rgb(107, 100, 100);
+  }
+  .img-lucha{
+    width: 170%;
+    height: 600px;
+  }
+  .titulocol3{
+    color:#ff00b3;
+background-color: #333;
+  }
+
+  .d-block .w100 {
+
+    width: 100%;
+    height: auto ;
+  }
+  
+
+
+  @media only screen and (max-width: 600px)  {
+    /*container Bienvenida*/
+.container_xl {
+  width: 150%;
+  height: 1600px;
+}
+
+.text {           /*titúlo: bienvenidos a este blog*/
+  font-size: 30px;
+}
+
+.display-7 { /*texto del conteiner bienvenida de bolg*/
+  font-size: 22px;
+  height: 2800px;
+}
+
+
+/*img perfil*/ 
+.img-fluid{ 
+  margin-right:-30%;
+  width: 90%;
+  }
+
+
+  .lead, i{ /* titúlo historia de franchezca*/
+    width: 150%;
+    height: 100px;
+    font-size: 40px;
+      }
+
+  .h3{ /* titúlo historia de franchezca*/
+    font-size:30px;
+    }
+    
+    p { /*texto historia de franchezca*/
+      width: 150%;
+      font-size:32px;
+    }
+
+
+
+    .h3caja{
+      width: 200%;
+      height: 180px;
+      font-size: 40px;
+    }
+
+    .pcaja{
+      width:180%;
+      height: 200%;
+      font-size: 30px;
+      margin-left: 10%;
+     
+    }
+
+    .titulocol3{
+      width: 160%;
+      height: 120px;
+      font-size:36px;
+    }
+
+    .trescolumnas{
+      width: 160%;
+      height: 1100px;
+      font-size:30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
